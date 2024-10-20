@@ -1,0 +1,3 @@
+deb http://debian.web.trex.fi/debian bookworm main non-free
+
+deb http://debian.web.trex.fi/debian bookworm-updates main non-free
