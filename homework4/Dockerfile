@@ -27,7 +27,7 @@ COPY index.html /var/www/blue-whale.com/
 COPY ./img/crib.jpg /var/www/blue-whale.com/img/
 
 # Задаем рекурсивно на /var/www/blue-whale.com права "владельцу - читать, писать, исполнять; группе - читать, исполнять, остальным - только читать"
-RUN chmod -R 755 /var/www/blue-whale.com
+RUN chmod -R 754 /var/www/blue-whale.com
 
 # Создаем пользователя
 RUN adduser di
