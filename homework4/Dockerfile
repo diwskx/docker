@@ -8,7 +8,7 @@ COPY fi.list /etc/apt/sources.list.d/
 # Обновление кеша и обновление пакетов
 RUN apt-get update && apt-get upgrade -y
 
-# Устанавливаем nginx, sudo
+# Устанавливаем nginx
 RUN apt-get install -y nginx
 
 # Очищаем кеш
